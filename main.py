@@ -9,7 +9,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import StandardScaler
 from xgboost import XGBRegressor
 
-
+#  Done
 class MobileNetwork:
     def __init__(self, num_points, frequency, height_transmitter, height_receiver, terrain):
         self.num_points = num_points
